@@ -1,0 +1,50 @@
+# ===== Keil MDK 编译产物（可重新编译生成，不必入库）=====
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.o
+*.d
+*.crf
+*.axf
+*.lnp
+*.map
+*.lst
+*.htm
+*.dep
+*.iex
+*.uvoptx
+*.uvguix.*
+JLinkLog.txt
+
+# ===== Altium 自动备份与中间文件（制板输出 Gerber 等予以保留）=====
+History/
+__Previews/
+*.SchDocPreview
+*.PcbDocPreview
+*.LOG
+*.log
+~$*
+
+# ===== 仿真原始数据（LTspice 等，可重新跑出来）=====
+*.raw
+*.raw.bak
+*.op.raw
+*.bak
+*.tmp
+
+# ===== 压缩包 / 安装包（资料请放链接，不要塞进仓库）=====
+*.zip
+*.rar
+*.7z
+*.exe
+*.msi
+
+# ===== 密钥与本地配置 =====
+.env
+*.env
+
+# ===== 系统垃圾 =====
+Thumbs.db
+desktop.ini
+.DS_Store
